@@ -12,7 +12,6 @@ if(combustivel=='A'){
          preco=litros*1.9*0.96
          alert(`O valor a ser pago é ${preco} reais.`) 
     }
-
     if(combustivel=='G'){
         (litros<=25)
             preco=litros*2.7*0.97
