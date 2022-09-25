@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="author" content="EverM8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Média</title>
+</head>
+<body>
+    <script>
+   
+        const num=parseInt(prompt('Informe quantos números será digitado:'))
+        
+        let soma=0
+        let media=0
+        for(let i=1;i<=num;i++){
+            let n1=parseFloat(prompt(`Informe o ${i}ª número:`))
+             soma=soma+n1
+             media=soma/num
+            
+        }
+        parseFloat(alert(`A média dos valores informados é ${media}`))
+
+        
+        
+
+    </script>
+</body>
+</html>
